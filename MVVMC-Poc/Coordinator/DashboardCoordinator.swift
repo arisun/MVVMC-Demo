@@ -13,16 +13,25 @@ class DashboardCoordinator: Coordinator {
     var childCoordinators = [Coordinator]()
     var navigationController: UINavigationController
     weak var parentCoordinator: AppCoordinator?
+    private var viewModel: DashBoardViewModel?
     
     init(navigationController: UINavigationController) {
         self.navigationController = navigationController
     }
+    convenience init(model: DashBoardViewModel, navigationController: UINavigationController) {
+        self.init(navigationController: navigationController)
+        viewModel = model
+    }
     
     func start() {
         let vc = DashBoardViewController.instantiate()
-        let viewModel = DashBoardViewModel.init()
+        if let model = viewModel {
+            vc.viewModel = model
+        } else {
+            viewModel = DashBoardViewModel.init()
+        }
         vc.viewModel = viewModel
-        viewModel.dashBoardCoordinator = self
+        viewModel?.dashBoardCoordinator = self
         navigationController.pushViewController(vc, animated: true)
     }
     func didFinish() {

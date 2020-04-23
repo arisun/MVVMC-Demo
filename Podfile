@@ -10,6 +10,19 @@ target 'MVVMC-Poc' do
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
   
+  #Logs
+  pod 'CocoaLumberjack/Swift'
+  
+  #Networking
+  pod 'Alamofire'
+  pod 'RxAlamofire'
+  
+  #Object mapping
+  pod 'ObjectMapper'
+  
+  # Loader
+  pod 'NVActivityIndicatorView'
+  
   target 'MVVMC-PocTests' do
     inherit! :search_paths
     # Pods for testing

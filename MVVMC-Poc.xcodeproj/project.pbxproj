@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		0B22795E30AB3E0943A3FFF5 /* Pods_MVVMC_PocTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABC67E63E426F81FD43D62C9 /* Pods_MVVMC_PocTests.framework */; };
 		61D1D07023C9ED3605D5A522 /* Pods_MVVMC_Poc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCBEB1720DA280733FA7BA13 /* Pods_MVVMC_Poc.framework */; };
+		A3404DE12451726100C9ED96 /* LoaderViewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3404DE02451726100C9ED96 /* LoaderViewable.swift */; };
+		A3404DE32451767D00C9ED96 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3404DE22451767D00C9ED96 /* ActivityIndicator.swift */; };
+		A3404DE62451D24400C9ED96 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3404DE52451D24400C9ED96 /* Logger.swift */; };
+		A36E4443245030CE00C657B0 /* APIUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E4442245030CE00C657B0 /* APIUrl.swift */; };
+		A36E44462450391300C657B0 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E44452450391300C657B0 /* API.swift */; };
+		A36E4449245039C400C657B0 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E4447245039C300C657B0 /* Articles.swift */; };
+		A36E444A245039C400C657B0 /* DashBoardDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36E4448245039C400C657B0 /* DashBoardDataModel.swift */; };
 		A3835D9C243E52FC00CEA7E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835D9B243E52FC00CEA7E8 /* AppDelegate.swift */; };
 		A3835D9E243E52FC00CEA7E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835D9D243E52FC00CEA7E8 /* SceneDelegate.swift */; };
 		A3835DA0243E52FC00CEA7E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835D9F243E52FC00CEA7E8 /* LoginViewController.swift */; };
@@ -22,7 +29,6 @@
 		A3835DCB243E5C1E00CEA7E8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835DCA243E5C1E00CEA7E8 /* SignUpViewController.swift */; };
 		A3835DCD243E5C3500CEA7E8 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835DCC243E5C3500CEA7E8 /* ForgotPasswordViewController.swift */; };
 		A3835DCF243E5C4700CEA7E8 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3835DCE243E5C4700CEA7E8 /* DashBoardViewController.swift */; };
-		A3AABBAF2444AC8200C4AA5F /* DashBoardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AABBAE2444AC8200C4AA5F /* DashBoardData.swift */; };
 		A3AABBB12444E9C600C4AA5F /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AABBB02444E9C600C4AA5F /* LoginViewModel.swift */; };
 		A3AABBB32444E9E300C4AA5F /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AABBB22444E9E300C4AA5F /* BaseViewModel.swift */; };
 		A3AABBB52445975E00C4AA5F /* LoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3AABBB42445975E00C4AA5F /* LoginData.swift */; };
@@ -52,6 +58,13 @@
 		4A4A078FD4B30894B35907A1 /* Pods-MVVMC-PocTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMC-PocTests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMC-PocTests/Pods-MVVMC-PocTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C83D1F96C5E0F336AE78D59 /* Pods-MVVMC-PocTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMC-PocTests.release.xcconfig"; path = "Target Support Files/Pods-MVVMC-PocTests/Pods-MVVMC-PocTests.release.xcconfig"; sourceTree = "<group>"; };
 		871CC685E746A61A01C0E719 /* Pods-MVVMC-Poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMC-Poc.release.xcconfig"; path = "Target Support Files/Pods-MVVMC-Poc/Pods-MVVMC-Poc.release.xcconfig"; sourceTree = "<group>"; };
+		A3404DE02451726100C9ED96 /* LoaderViewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewable.swift; sourceTree = "<group>"; };
+		A3404DE22451767D00C9ED96 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		A3404DE52451D24400C9ED96 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		A36E4442245030CE00C657B0 /* APIUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUrl.swift; sourceTree = "<group>"; };
+		A36E44452450391300C657B0 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = "/Users/sunny/Documents/MVVMC-Poc/MVVMC-Poc/Networking/API.swift"; sourceTree = "<absolute>"; };
+		A36E4447245039C300C657B0 /* Articles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		A36E4448245039C400C657B0 /* DashBoardDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardDataModel.swift; sourceTree = "<group>"; };
 		A3835D98243E52FC00CEA7E8 /* MVVMC-Poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVMC-Poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3835D9B243E52FC00CEA7E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A3835D9D243E52FC00CEA7E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +82,6 @@
 		A3835DCA243E5C1E00CEA7E8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A3835DCC243E5C3500CEA7E8 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		A3835DCE243E5C4700CEA7E8 /* DashBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
-		A3AABBAE2444AC8200C4AA5F /* DashBoardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardData.swift; sourceTree = "<group>"; };
 		A3AABBB02444E9C600C4AA5F /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A3AABBB22444E9E300C4AA5F /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
 		A3AABBB42445975E00C4AA5F /* LoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginData.swift; sourceTree = "<group>"; };
@@ -126,6 +138,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A3404DE42451D21900C9ED96 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A3404DE22451767D00C9ED96 /* ActivityIndicator.swift */,
+				A3404DE52451D24400C9ED96 /* Logger.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A36E4444245030FE00C657B0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A36E44452450391300C657B0 /* API.swift */,
+				A36E4442245030CE00C657B0 /* APIUrl.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A36E444B245039EF00C657B0 /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A36E4447245039C300C657B0 /* Articles.swift */,
+				A36E4448245039C400C657B0 /* DashBoardDataModel.swift */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
 		A3835D8F243E52FC00CEA7E8 = {
 			isa = PBXGroup;
 			children = (
@@ -149,12 +188,14 @@
 		A3835D9A243E52FC00CEA7E8 /* MVVMC-Poc */ = {
 			isa = PBXGroup;
 			children = (
+				A36E4444245030FE00C657B0 /* Networking */,
 				A3835DBD243E530E00CEA7E8 /* Coordinator */,
 				A3835DC4243E5B5100CEA7E8 /* Views */,
 				A3835DD0243E5C5600CEA7E8 /* Protocols */,
 				A3E18E5C243F360400A1C9E2 /* ViewModels */,
 				A3AABBAD2444AC5800C4AA5F /* DataModel */,
 				A3AABBB82445C30200C4AA5F /* Extension */,
+				A3404DE42451D21900C9ED96 /* Utility */,
 				A3835D9B243E52FC00CEA7E8 /* AppDelegate.swift */,
 				A3835D9D243E52FC00CEA7E8 /* SceneDelegate.swift */,
 				A3835DA1243E52FC00CEA7E8 /* Main.storyboard */,
@@ -241,6 +282,7 @@
 			isa = PBXGroup;
 			children = (
 				A3835DC0243E542000CEA7E8 /* Storyboarded.swift */,
+				A3404DE02451726100C9ED96 /* LoaderViewable.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -248,7 +290,7 @@
 		A3AABBAD2444AC5800C4AA5F /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
-				A3AABBAE2444AC8200C4AA5F /* DashBoardData.swift */,
+				A36E444B245039EF00C657B0 /* DashBoard */,
 				A3AABBB42445975E00C4AA5F /* LoginData.swift */,
 				A3AABBB92446DE8D00C4AA5F /* SignUpData.swift */,
 				A3AABBBB2446DEB000C4AA5F /* ForgotPasswordData.swift */,
@@ -463,18 +505,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3835DCF243E5C4700CEA7E8 /* DashBoardViewController.swift in Sources */,
+				A36E4449245039C400C657B0 /* Articles.swift in Sources */,
 				A3E18E5B243F337A00A1C9E2 /* DashboardCoordinator.swift in Sources */,
 				A3AABBB52445975E00C4AA5F /* LoginData.swift in Sources */,
+				A3404DE32451767D00C9ED96 /* ActivityIndicator.swift in Sources */,
 				A3835DCD243E5C3500CEA7E8 /* ForgotPasswordViewController.swift in Sources */,
 				A3E18E59243F336200A1C9E2 /* ForgotPasswordCoordinator.swift in Sources */,
-				A3AABBAF2444AC8200C4AA5F /* DashBoardData.swift in Sources */,
+				A36E444A245039C400C657B0 /* DashBoardDataModel.swift in Sources */,
 				A3AABBC02446DEE700C4AA5F /* ForgotPasswordViewModel.swift in Sources */,
 				A3AABBB32444E9E300C4AA5F /* BaseViewModel.swift in Sources */,
 				A3835DC3243E560400CEA7E8 /* AppCoordinator.swift in Sources */,
+				A3404DE62451D24400C9ED96 /* Logger.swift in Sources */,
 				A3835DCB243E5C1E00CEA7E8 /* SignUpViewController.swift in Sources */,
 				A3E18E5E243F362500A1C9E2 /* DashBoardViewModel.swift in Sources */,
+				A3404DE12451726100C9ED96 /* LoaderViewable.swift in Sources */,
 				A3AABBB12444E9C600C4AA5F /* LoginViewModel.swift in Sources */,
 				A3835DBF243E532C00CEA7E8 /* Coordinator.swift in Sources */,
+				A36E4443245030CE00C657B0 /* APIUrl.swift in Sources */,
 				A3AABBB72445C2F300C4AA5F /* UIViewController+Navigation.swift in Sources */,
 				A3AABBBE2446DED500C4AA5F /* SignUpViewModel.swift in Sources */,
 				A3835DA0243E52FC00CEA7E8 /* LoginViewController.swift in Sources */,
@@ -483,6 +530,7 @@
 				A3835D9C243E52FC00CEA7E8 /* AppDelegate.swift in Sources */,
 				A3AABBBC2446DEB000C4AA5F /* ForgotPasswordData.swift in Sources */,
 				A3835D9E243E52FC00CEA7E8 /* SceneDelegate.swift in Sources */,
+				A36E44462450391300C657B0 /* API.swift in Sources */,
 				A3AABBBA2446DE8D00C4AA5F /* SignUpData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -646,6 +694,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 872HQEZMB9;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "MVVMC-Poc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -665,6 +715,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 872HQEZMB9;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "MVVMC-Poc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

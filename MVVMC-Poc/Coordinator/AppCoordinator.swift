@@ -39,8 +39,13 @@ class AppCoordinator: Coordinator {
         coordinator.start()
     }
     
-    func goToDashboard() {
-        let coordinator = DashboardCoordinator.init(navigationController: navigationController)
+    func goToDashboard(withViewModel: DashBoardViewModel? = nil) {
+        var coordinator: DashboardCoordinator
+        if let vwModel = withViewModel {
+            coordinator = DashboardCoordinator.init(model: vwModel, navigationController: navigationController)
+        } else {
+            coordinator = DashboardCoordinator.init(navigationController: navigationController)
+        }
         coordinator.parentCoordinator = self
         childCoordinators.append(coordinator)
         coordinator.start()

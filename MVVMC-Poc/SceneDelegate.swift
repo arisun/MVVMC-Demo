@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let _ = (scene as? UIWindowScene) else { return }
         if let windowScene = scene as? UIWindowScene {
             let navController = UINavigationController()
+            Logger.shared.setUpLogger()
             coordinator = AppCoordinator.init(navigationController: navController)
             coordinator?.start()
             let window = UIWindow(windowScene: windowScene)
